@@ -38,4 +38,4 @@ USER aosp
 WORKDIR /aosp
 
 #Relogin to set env var such as USER
-CMD sudo -iu aosp
+CMD sudo -E -iu aosp
