@@ -23,6 +23,16 @@ For *Mac OS X* and *Windows* users, consider
 [kylemanna/vagrant-aosp](https://github.com/kylemanna/vagrant-aosp) as a good
 virtual machine to enable development.
 
+Build Dockers
+-------------
+
+* For Nougat
+`docker build -t nougat -f Dockerfile_7.0 .`
+* For Marshmallow and Lollipop
+`docker build -t lollipop -f Dockerfile_5.0-6.0 .`
+* For kitkat
+`docker build -t kitkat -f Dockerfile_kitkat .`
+
 
 Quickstart
 ----------
